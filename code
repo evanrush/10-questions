@@ -1,0 +1,115 @@
+print('Hi People! I have ten question for you!')
+right = 0
+total = 0
+qw1 = input('You like work Pyton: ')
+if qw1.lower() == 'yes' :
+    print('This is true answer!')
+    if qw1.lower() == 'yes' :
+        right += 1
+        total += 1
+else:
+    print ('You question need something other,goodbye!')
+    if qw1.lower() != 'yes' :
+        right += 0
+        total += 1
+qw2 = input('What is name your teacher? ')
+if qw2.lower() == 'nikita' :
+    print ('This is true answer! ')
+    if qw2.lower() == 'nikita' :
+        right += 1
+        total += 1
+else:
+    print ('No! he name is Nikita')
+    if qw2.lower() != 'nikita' :
+        right += 0
+        total += 1
+qw3 = input('How do you spell a fractional number? ')
+if qw3 == 'float' :
+    print('This is true answer!')
+    if qw3 == 'float' :
+        right += 1
+        total += 1
+else:
+    print('No! Right is "float"')
+    if qw3 != 'float' :
+        right += 0
+        total += 1
+qw4 = input ('How do you spell integer? ')
+if qw4 == 'int' :
+    print('This is true answer!')
+    if qw4 == 'int' :
+        right += 1
+        total += 1
+else:
+    print('No! Right is "int"')
+    if qw4 != 'int' :
+        right += 0
+        total += 1
+qw5 = input('What is written a lie in python? ')
+if qw5 == 'False' :
+    print('This is true answer!')
+    if qw5 == 'False' :
+        right += 1
+        total += 1
+else:
+    print('No! Right is False')
+    if qw5 != 'False' :
+        right += 0
+        total += 1
+qw6 = input('How do you spell string? ')
+if qw6 == 'str' :
+    print('This is true answer!')
+    if qw6 == 'str' :
+        right += 1
+        total += 1
+else:
+    print('No! Right is "str"')
+    if qw6 != 'str' :
+        right += 0
+        total += 1
+qw7 = input('Boolean value True = 1 or 0 ? ')
+if qw7 == '1' :
+    print('This is true answer!')
+    if qw7 == '1' :
+        right += 1
+        total += 1
+else:
+    print('Ooops, ERROR')
+    if qw7 != '1' :
+        right += 0
+        total += 1
+qw8 = input('What analog 0? ')
+if qw8 == 'None' :
+    print('This is true answer!')
+    if qw8 == 'None' :
+        right += 1
+        total += 1
+else:
+    print('No! Right is "None"')
+    if qw8 != 'None' :
+        right += 0
+        total += 1
+qw9 = input('What encoding is used in python? ')
+if qw9.lower() == 'utf-8' :
+    print('This is true answer!')
+    if qw9.lower() == 'utf-8'  :
+        right += 1
+        total += 1
+else:
+    print('No! Right is "UTF-8"')
+    if qw9 != 'None' :
+        right += 0
+        total += 1
+qw10 = input ('This is tenth question? ')
+if qw10.lower() == 'yes' :
+    print('This is true answer!')
+    if qw10.lower() == 'yes' :
+        right += 1
+        total += 1
+else:
+    print('Wake up, BRO! Matrix fuck you!')
+    if qw10.lower() != 'yes' :
+        right += 0
+        total += 1
+print('You answered correctly {} of {} questions!'.format(right, total))
+input("\n\nНажмите Enter чтобы выйти .")
